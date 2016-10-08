@@ -1,0 +1,11 @@
+2016-10-08 09:36:55,CSC: <format>0</format>
+2016-10-08 09:36:56,CSC: <insert><subscribe><keys><key>気象庁</key></keys><values><value>府県天気予報</value></values></subscribe></insert>
+2016-10-08 09:36:56,CSC: <forward>0</forward>
+2016-10-08 09:36:56,CAC: <subscription></subscription>
+2016-10-08 09:36:56,RCAC: Filter: []
+Subscription: {気象庁=[府県天気予報]}
+Information Format: 0
+Foward Execution: false
+2016-10-08 09:36:56,CAC: <retrieve></retrieve>
+2016-10-08 09:36:56,RCAC: <entry><title>府県天気予報</title><id>urn:uuid:768e9098-3b0e-35c7-872e-46290f6d8007</id><updated>2016-10-07T20:00:35Z</updated><author><name>気象庁予報部</name></author><link href="http://xml.kishou.go.jp/data/768e9098-3b0e-35c7-872e-46290f6d8007.xml" type="application/xml"/><content type="text">【東京都府県天気予報】</content></entry>
+
