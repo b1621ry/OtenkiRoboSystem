@@ -31,8 +31,16 @@
    $i=0;
 
     $sent_data = $forcasts[1]->Sentence;
-    print($sent_data);
 
+    //天気の判別
+    if(preg_match('/くもり/',$sent_data) || preg_match('/雨/',$sent_data) || preg_match('/雪/',$sent_data) )
+    {
+        print "0";
+    }else if(preg_match('/晴れ/',$result)){
+        print "1";
+    }else{
+        print "-1";
+    }
     echo exec('telnet localhost 9001');
 
 ?>
