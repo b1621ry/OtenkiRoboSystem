@@ -10,7 +10,7 @@
             exec('php OtenkiGetCommand.php');
             echo "false";
         }else{
-            exec('php ../OtenkiProcess/otenkiprocess.php >> result.csv' );
+            exec('php ../OtenkiProcess/otenkiprocess.php' );
             echo "Success!";
         }
     }
